@@ -1,0 +1,31 @@
+body {
+  background-color: #1b244a;
+}
+
+#container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #eeeeee;
+  margin-top: 68px;
+  margin-bottom: 21px;
+}
+
+.scoreboard {
+  width: 155px;
+  height: 120px;
+  border-radius: 5px;
+  background-color: #080001;
+}
+
+#guest,
+#home {
+  color: #f94f6d;
+  font-size: 90px;
+  text-align: center;
+}
