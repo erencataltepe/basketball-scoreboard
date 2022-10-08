@@ -1,6 +1,7 @@
-const homeScoreboard = document.getElementById("home-scoreboard");
-const guestScoreboard = document.getElementById("guest-scoreboard");
+const homeScoreboard = document.getElementById("home-score");
+const guestScoreboard = document.getElementById("guest-score");
 const buttons = document.querySelectorAll("button");
+console.log(homeScoreboard);
 
 let homeScore = 0;
 let guestScore = 0;
