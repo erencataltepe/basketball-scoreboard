@@ -23,9 +23,34 @@ body {
   background-color: #080001;
 }
 
-#guest,
-#home {
+#guest-score,
+#home-score {
   color: #f94f6d;
   font-size: 90px;
   text-align: center;
+}
+
+button {
+  margin-top: 26px;
+  width: 45px;
+  height: 45px;
+  background-color: #1b244a;
+  color: #9aabd8;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#home,
+#guest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 160px;
 }
