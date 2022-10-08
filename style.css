@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "Cursed Timer";
+  src: url("fonts/CursedTimerUlil-Aznm.ttf");
+}
+
 body {
   background-color: #1b244a;
+  font-family: "Cursed Timer";
 }
 
 #container {
@@ -21,13 +27,15 @@ body {
   height: 120px;
   border-radius: 5px;
   background-color: #080001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #guest-score,
 #home-score {
   color: #f94f6d;
   font-size: 90px;
-  text-align: center;
 }
 
 button {
@@ -39,6 +47,7 @@ button {
   border: 2px solid #9aabd8;
   border-radius: 5px;
   text-align: center;
+  font-family: "Cursed Timer";
 }
 
 #home,
